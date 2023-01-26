@@ -354,6 +354,7 @@ li {
 .StepByStep_AddText .textBlock {
   height: 130px;
   width: 553px;
+  margin-top: 120px;
 }
 .StepByStep_AddLogo .textBlock {
   height: 160px;
@@ -362,9 +363,10 @@ li {
 .StepByStep_GenerateDesign .textBlock {
   height: 160px;
   width: 553px;
+  margin-top: 130px;
 }
 .StepByStep_AddLogo {
-  margin-top: 110px;
+  margin-top: 130px;
 }
 .StepByStep_AddImage,
 .StepByStep_AddLogo {
@@ -499,7 +501,7 @@ li {
     width: 410px;
   }
   .StepByStep_AddLogo {
-    margin-top: 60px;
+    margin-top: 80px;
   }
   .StepByStep_AddText .img_AddImage,
   .StepByStep_GenerateDesign .img_AddImage,
@@ -523,6 +525,12 @@ li {
   }
   .StepByStep_AddText {
     margin-top: 0px;
+  }
+  .StepByStep_AddText .textBlock {
+    margin-top: 50px;
+  }
+  .StepByStep_GenerateDesign {
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -593,6 +601,12 @@ li {
   }
   .LogoWithOpacity {
     height: 450px;
+  }
+  .StepByStep_AddText .textBlock {
+    margin-top: 90px;
+  }
+  .StepByStep_AddLogo {
+    margin-top: 65px;
   }
 }
 
@@ -719,6 +733,12 @@ li {
   .StepByStep_GenerateDesign .textBlock {
     padding-left: 140px;
   }
+  .StepByStep_AddText .textBlock {
+    margin-top: 50px;
+  }
+  .StepByStep_GenerateDesign .textBlock {
+    margin-top: 50px;
+  }
   .StepByStep_AddImage,
   .StepByStep_AddLogo,
   .StepByStep_AddText,
@@ -727,7 +747,7 @@ li {
     margin-left: 70px;
   }
   .StepByStep_AddLogo {
-    margin-top: 75px;
+    margin-top: 30px;
   }
   .StepByStep_GenerateDesign {
     margin-top: 70px;
@@ -738,7 +758,7 @@ li {
   }
   .StepByStep_AddImage .textBlock,
   .StepByStep_AddLogo .textBlock {
-    padding-right: 60px;
+    padding-right: 40px;
   }
   .paragraphDefaultStyle {
     line-height: 24px;
@@ -765,7 +785,13 @@ li {
   }
   .Steps_Line {
     width: 230px;
-    top: 30px;
+    top: 25px;
+  }
+  .StepByStep_AddText .textBlock {
+    margin-top: 10px;
+  }
+  .StepByStep_GenerateDesign .textBlock {
+    margin-top: 10px;
   }
   .h5StyleAddSteps {
     margin-top: 12px;
@@ -880,6 +906,9 @@ li {
   .StepByStep_AddLogo .textBlock {
     padding-right: 0;
     width: 250px;
+  }
+  .StepByStep_GenerateDesign .textBlock {
+    margin-top: 35px;
   }
   .Steps_Line {
     width: 200px;
