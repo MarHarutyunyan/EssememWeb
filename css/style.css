@@ -1,0 +1,1100 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../Fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../Fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../Fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Nunito-Bold;
+  src: url(../Fonts/Nunito-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #101010;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+/* Hover */
+.tryNowButton:hover {
+  background-color: #dc4237;
+  cursor: pointer;
+}
+/* Hover */
+
+/* ForJsPart */
+.openText {
+  display: block !important;
+  overflow: visible !important;
+}
+.minWidth370px {
+  height: 710px !important;
+}
+.minWidth345px {
+  height: 730px !important;
+}
+.minWidth320px {
+  height: 790px !important;
+}
+
+/* ForJsPart */
+
+/* Common Styles */
+.h3DefaultStyle {
+  font-size: 36px;
+  font-family: Nunito-Bold;
+  font-weight: 700;
+  line-height: 24px;
+}
+.paragraphFooter {
+  font-family: Nunito-Bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.h5StyleAddSteps {
+  font-family: Nunito-Bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+.h4StyleAddSteps {
+  font-family: Nunito-Bold;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.paragraphDefaultStyle {
+  font-size: 18px;
+  font-family: OpenSans-Regular;
+  line-height: 27px;
+}
+
+.h4DefaultStyle {
+  font-family: OpenSans-Bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.h5DefaultStyle {
+  font-family: OpenSans-SemiBold;
+  font-size: 24px;
+  line-height: 24px;
+}
+.hideButton2 {
+  display: none !important;
+}
+.mobileSteps {
+  display: none !important;
+}
+.textBlockHidden {
+  display: none !important;
+}
+/* Common Styles */
+
+/* Background Templates Section ->>*/
+.bckgrndTemplates_Section {
+  z-index: -2;
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background: #ffffff url("../Images/templatesBackground.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.opacityDiv {
+  z-index: -1;
+  position: absolute;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 52%;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.78);
+  border-radius: 0 24px 24px 0;
+}
+.opacityDiv_Text {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  width: 656px;
+}
+.opacityDiv_Text h3 {
+  color: white;
+}
+.opacityDiv_Text p {
+  color: white;
+  margin-top: 32px;
+}
+
+/*<<- Background Templates Section */
+
+/*Benefits */
+.Benefits_Section1 h5,
+.Benefits_Section2 h5,
+.Benefits_Section3 h5,
+.Benefits_Section4 h5,
+.Benefits_Section5 h5 {
+  color: #eb4a3f;
+}
+.textBlock_vernagir h3 {
+  margin-left: 50px;
+  margin-bottom: 54px;
+}
+
+.Benefits_Section1 .textBlock,
+.Benefits_Section2 .textBlock,
+.Benefits_Section3 .textBlock,
+.Benefits_Section4 .textBlock,
+.Benefits_Section5 .textBlock {
+  width: 765px;
+  margin-left: 50px;
+}
+.textBlock p {
+  margin: 32px 0 48px 0;
+}
+.Benefits_Section1 .textBlock {
+  height: 200px;
+}
+.Benefits_Section2 .textBlock {
+  height: 350px;
+}
+.Benefits_Section3 .textBlock {
+  height: 460px;
+}
+.Benefits_Section4 .textBlock {
+  height: 670px;
+}
+.Benefits_Section5 .textBlock {
+  height: 470px;
+}
+
+.tryNowButton {
+  text-align: center;
+  display: inline-block;
+  padding: 16px 0;
+  width: 280px;
+  background: #eb4a3f;
+  border-radius: 8px;
+  border-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-family: Nunito-Bold;
+}
+
+.Benefits_Section1 {
+  height: 666px;
+  position: relative;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.Benefits_Section2 {
+  position: relative;
+  margin-top: -140px;
+}
+.Benefits_Section3 {
+  position: relative;
+  margin-top: 66px;
+}
+.Benefits_Section4 {
+  position: relative;
+  margin-top: 88px;
+}
+.Benefits_Section5 {
+  margin-top: 122px;
+}
+.LogoWithOpacity {
+  z-index: -1;
+  position: absolute;
+}
+.LogoWithOpacity > * {
+  height: 100%;
+}
+.leftSide {
+  left: 0;
+  transform: scale(-1);
+}
+.rightSide {
+  right: 0;
+}
+.Benefits_Section1 .LogoWithOpacity {
+  top: 26px;
+}
+.Benefits_Section2 .LogoWithOpacity {
+  top: 160px;
+}
+.Benefits_Section3 .LogoWithOpacity {
+  top: 150px;
+}
+.Benefits_Section4 .LogoWithOpacity {
+  top: 400px;
+}
+.Benefits_Section1 .block {
+  display: flex;
+}
+.Benefits_Section2 .block,
+.Benefits_Section4 .block,
+.Benefits_Section3 .block,
+.Benefits_Section5 .block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Benefits_Section1 .imgBlock {
+  width: 620px;
+  position: relative;
+}
+.Benefits_Section1 .imgBlock * {
+  right: -230px;
+  top: -0;
+  width: 170%;
+  position: absolute;
+}
+.Benefits_Section3 .imgBlock {
+  width: 400px;
+}
+.Benefits_Section2 .imgBlock,
+.Benefits_Section4 .imgBlock,
+.Benefits_Section5 .imgBlock {
+  width: 620px;
+}
+.Benefits_Section2 .imgBlock *,
+.Benefits_Section3 .imgBlock *,
+.Benefits_Section4 .imgBlock *,
+.Benefits_Section5 .imgBlock * {
+  width: 100%;
+}
+/*Benefits */
+
+/* Step by step part */
+.HowToUse_Section {
+  width: 100%;
+  background: linear-gradient(
+    87.43deg,
+    rgba(255, 146, 17, 0.08) 32.67%,
+    rgba(235, 74, 63, 0.08) 54.79%
+  );
+  margin-top: 50px;
+}
+.HowToUse_Section .block {
+  margin: 0 50px;
+  padding: 114px 0;
+}
+.HowToUse_Section .block > h5 {
+  margin-top: 55px;
+}
+.linkToEssemem {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  font-family: OpenSans-ExtraBold;
+}
+.TryAdsMaker {
+  color: rgba(235, 74, 63, 1);
+}
+.StepByStep_Container {
+  position: relative;
+  margin-left: 140px;
+}
+.StepByStep_AddImage,
+.StepByStep_AddLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.StepByStep_AddText,
+.StepByStep_GenerateDesign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+}
+.StepByStep_Container .textBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.StepByStep_AddImage .textBlock {
+  width: 552px;
+  height: 120px;
+}
+.StepByStep_AddText .textBlock {
+  height: 130px;
+  width: 553px;
+}
+.StepByStep_AddLogo .textBlock {
+  height: 160px;
+  width: 400px;
+}
+.StepByStep_GenerateDesign .textBlock {
+  height: 160px;
+  width: 553px;
+}
+.StepByStep_AddLogo {
+  margin-top: 110px;
+}
+.StepByStep_AddImage,
+.StepByStep_AddLogo {
+  margin-left: 140px;
+}
+.StepByStep_AddText {
+  margin-top: 15px;
+}
+.StepByStep_GenerateDesign {
+  margin-top: 110px;
+}
+.StepByStep_AddImage .img_AddImage,
+.StepByStep_AddLogo .img_AddImage {
+  margin: 0 auto;
+}
+.StepByStep_AddImage .img_AddImage {
+  width: 360px;
+}
+.StepByStep_AddText .img_AddImage,
+.StepByStep_GenerateDesign .img_AddImage,
+.StepByStep_AddLogo .img_AddImage {
+  width: 220px;
+}
+.StepByStep_AddImage .img_AddImage *,
+.StepByStep_AddLogo .img_AddImage *,
+.StepByStep_AddText .img_AddImage *,
+.StepByStep_GenerateDesign .img_AddImage * {
+  width: 100%;
+}
+
+.Steps_Line {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 600px;
+  height: 100%;
+}
+.Steps_Line * {
+  width: 100%;
+}
+/* Step by step part */
+
+/* Footer */
+.Footer {
+  background-color: #2f2f2f;
+}
+.Footer .block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 65px 0;
+}
+.Footer .textBlock {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 800px;
+}
+.Footer .textBlock li a {
+  color: #fff;
+}
+
+.Footer .textBlock .list *:not(:last-child) {
+  margin-bottom: 16px;
+}
+.Footer .textBlock .list * {
+  font-family: Nunito-Bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* Footer */
+
+@media only screen and (max-width: 1600px) {
+  .container {
+    width: 1140px;
+  }
+  .bckgrndTemplates_Section {
+    height: 600px;
+  }
+  .opacityDiv {
+    height: 260px;
+  }
+  .opacityDiv_Text {
+    width: 520px;
+  }
+  .h3DefaultStyle {
+    font-size: 30px;
+  }
+  .paragraphDefaultStyle {
+    font-size: 16px;
+  }
+  .paragraphFooter {
+    font-size: 14px;
+  }
+  .h5DefaultStyle {
+    font-size: 20px;
+  }
+  .Benefits_Section1 .textBlock,
+  .Benefits_Section2 .textBlock,
+  .Benefits_Section4 .textBlock,
+  .Benefits_Section3 .textBlock,
+  .Benefits_Section5 .textBlock {
+    width: 600px;
+  }
+  .Benefits_Section2 .imgBlock,
+  .Benefits_Section3 .imgBlock,
+  .Benefits_Section4 .imgBlock,
+  .Benefits_Section5 .imgBlock {
+    width: 520px;
+  }
+  .Benefits_Section3 .imgBlock {
+    width: 300px;
+  }
+  .Benefits_Section1 .imgBlock * {
+    right: -190px;
+  }
+  .textBlock p {
+    margin: 16px 0 32px 0;
+  }
+  .h4StyleAddSteps {
+    font-size: 24px;
+  }
+  .h5StyleAddSteps {
+    font-size: 20px;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    width: 410px;
+  }
+  .Steps_Line {
+    top: 60px;
+    width: 410px;
+  }
+  .StepByStep_AddLogo {
+    margin-top: 60px;
+  }
+  .StepByStep_AddText .img_AddImage,
+  .StepByStep_GenerateDesign .img_AddImage,
+  .StepByStep_AddLogo .img_AddImage {
+    width: 160px;
+  }
+  .StepByStep_AddImage .img_AddImage {
+    width: 300px;
+  }
+  .StepByStep_Container {
+    margin-left: 110px;
+  }
+  .StepByStep_AddImage,
+  .StepByStep_AddLogo,
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    margin-left: 100px;
+  }
+  .Footer .textBlock {
+    width: 600px;
+  }
+  .StepByStep_AddText {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .Benefits_Section1 .imgBlock * {
+    right: -110px;
+  }
+  .bckgrndTemplates_Section {
+    height: 330px;
+  }
+  .opacityDiv {
+    height: 190px;
+  }
+  .opacityDiv_Text {
+    width: 420px;
+  }
+  .h3DefaultStyle {
+    font-size: 24px;
+  }
+  .paragraphDefaultStyle {
+    font-size: 14px;
+  }
+  .paragraphFooter {
+    font-size: 14px;
+  }
+  .h5DefaultStyle {
+    font-size: 18px;
+  }
+  .Benefits_Section1 .textBlock,
+  .Benefits_Section2 .textBlock,
+  .Benefits_Section4 .textBlock,
+  .Benefits_Section3 .textBlock,
+  .Benefits_Section5 .textBlock {
+    width: 500px;
+  }
+  .Benefits_Section2 .imgBlock,
+  .Benefits_Section3 .imgBlock,
+  .Benefits_Section4 .imgBlock,
+  .Benefits_Section5 .imgBlock {
+    width: 420px;
+  }
+  .Benefits_Section3 .imgBlock {
+    width: 250px;
+  }
+  .Benefits_Section1 .imgBlock * {
+    right: -150px;
+  }
+
+  .h4StyleAddSteps {
+    font-size: 20px;
+  }
+  .h5StyleAddSteps {
+    font-size: 18px;
+  }
+  .Footer .textBlock .list * {
+    font-size: 14px;
+  }
+  .StepByStep_Container {
+    margin-left: 0px;
+  }
+  .Footer .textBlock {
+    width: 500px;
+  }
+  .Footer .textBlock .list * {
+    font-size: 14px;
+  }
+  .LogoWithOpacity {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 720px;
+  }
+  .opacityDiv_Text {
+    margin-left: 0;
+    width: 500px;
+  }
+  .textBlockDesktop {
+    display: none !important;
+  }
+  .textBlockHidden {
+    display: inherit !important;
+  }
+  .Footer .textBlock {
+    width: 100%;
+  }
+  .Footer .block {
+    flex-direction: column-reverse;
+  }
+
+  .Benefits_Section1 .textBlock,
+  .Benefits_Section2 .textBlock,
+  .Benefits_Section3 .textBlock,
+  .Benefits_Section4 .textBlock,
+  .Benefits_Section5 .textBlock {
+    margin-left: 0;
+  }
+  .textBlock_vernagir h3 {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .opacityDiv_Text p {
+    margin-top: 16px;
+  }
+  .Benefits_Section1 .imgBlock * {
+    right: -80px;
+  }
+  .Benefits_Section1 .block,
+  .Benefits_Section3 .block,
+  .Benefits_Section5 .block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .opacityDiv {
+    width: 70%;
+  }
+  .Benefits_Section2 .block,
+  .Benefits_Section4 .block {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .Benefits_Section1 .textBlock,
+  .Benefits_Section2 .textBlock,
+  .Benefits_Section4 .textBlock,
+  .Benefits_Section3 .textBlock,
+  .Benefits_Section5 .textBlock {
+    width: 100%;
+    height: auto;
+  }
+  .Benefits_Section1 {
+    height: 720px;
+  }
+  .hideButton1 {
+    display: none;
+  }
+  .hideButton2 {
+    display: inline-block !important;
+    margin-top: 20px;
+  }
+
+  .tryNowButton {
+    padding: 14px 0;
+    width: 250px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+  .Benefits_Section4 {
+    margin-top: 30px;
+  }
+  .Benefits_Section5 {
+    margin-top: 50px;
+  }
+  .Benefits_Section1 .imgBlock,
+  .Benefits_Section2 .imgBlock,
+  .Benefits_Section3 .imgBlock,
+  .Benefits_Section4 .imgBlock,
+  .Benefits_Section5 .imgBlock {
+    width: 260px;
+  }
+  .Benefits_Section3 .imgBlock {
+    width: 200px;
+  }
+  .HowToUse_Section .block > h5 {
+    margin-top: 14px;
+  }
+  .h5StyleAddSteps {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .Footer .textBlock .list * {
+    font-size: 12px;
+  }
+  .h4StyleAddSteps {
+    font-size: 16px;
+  }
+  .StepByStep_AddImage .textBlock,
+  .StepByStep_AddLogo .textBlock,
+  .StepByStep_GenerateDesign .textBlock,
+  .StepByStep_AddText .textBlock {
+    height: auto;
+  }
+  .StepByStep_AddText .img_AddImage,
+  .StepByStep_GenerateDesign .img_AddImage,
+  .StepByStep_AddLogo .img_AddImage {
+    width: 120px;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 140px;
+  }
+  .StepByStep_AddImage,
+  .StepByStep_AddLogo,
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    margin-bottom: 25px;
+    margin-left: 70px;
+  }
+  .StepByStep_AddLogo {
+    margin-top: 75px;
+  }
+  .StepByStep_GenerateDesign {
+    margin-top: 70px;
+  }
+  .Steps_Line {
+    top: 40px;
+    width: 330px;
+  }
+  .StepByStep_AddImage .textBlock,
+  .StepByStep_AddLogo .textBlock {
+    padding-right: 60px;
+  }
+  .paragraphDefaultStyle {
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .opacityDiv_Text {
+    width: 430px;
+  }
+  .opacityDiv {
+    width: 80%;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 40px;
+  }
+  .StepByStep_AddImage .textBlock,
+  .StepByStep_AddLogo .textBlock {
+    padding-right: 90px;
+  }
+  .Steps_Line {
+    width: 230px;
+    top: 30px;
+  }
+  .h5StyleAddSteps {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .HowToUse_Section .block {
+    margin: 0;
+    padding: 90px 0;
+  }
+  .StepByStep_AddImage,
+  .StepByStep_AddLogo,
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    margin-left: 55px;
+  }
+  .StepByStep_AddLogo {
+    margin-top: 0;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 120px;
+  }
+  .h4StyleAddSteps {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .StepByStep_AddImage,
+  .StepByStep_AddLogo,
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    margin-bottom: 30px;
+  }
+  .StepByStep_Container {
+    margin-top: 32px;
+  }
+  .StepByStep_GenerateDesign {
+    margin-top: 70px;
+  }
+  .Steps_Line {
+    width: 250px;
+    top: 35px;
+  }
+  .StepByStep_AddText .img_AddImage,
+  .StepByStep_GenerateDesign .img_AddImage,
+  .StepByStep_AddLogo .img_AddImage {
+    width: 100px;
+  }
+  .LogoWithOpacity {
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 94%;
+  }
+  .opacityDiv {
+    width: 90%;
+  }
+  .paragraphDefaultStyle {
+    font-size: 12px;
+  }
+  .paragraphFooter {
+    font-size: 12px;
+  }
+  .h3DefaultStyle {
+    font-size: 16px;
+  }
+  .h5DefaultStyle {
+    font-size: 16px;
+  }
+  .HowToUse_Section .block {
+    margin: 0;
+    padding: 64px 0;
+  }
+  .HowToUse_Section .block > h5 {
+    font-size: 12px;
+  }
+  .StepByStep_AddImage,
+  .StepByStep_AddLogo,
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    margin-bottom: 0;
+  }
+  .StepByStep_AddLogo {
+    margin-top: 25px;
+  }
+  .StepByStep_GenerateDesign {
+    margin-top: 34px;
+  }
+  .StepByStep_AddText .img_AddImage,
+  .StepByStep_GenerateDesign .img_AddImage,
+  .StepByStep_AddLogo .img_AddImage {
+    width: 80px;
+  }
+  .StepByStep_AddImage,
+  .StepByStep_AddLogo,
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    margin-left: 40px;
+  }
+  .StepByStep_AddImage .img_AddImage {
+    width: 160px;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    margin-right: 20px;
+    padding-left: 0;
+    width: 250px;
+  }
+  .StepByStep_AddImage .textBlock,
+  .StepByStep_AddLogo .textBlock {
+    padding-right: 0;
+    width: 250px;
+  }
+  .Steps_Line {
+    width: 200px;
+    top: 38px;
+  }
+  .Benefits_Section1 {
+    padding-top: 50px;
+  }
+  .tryNowButton {
+    width: 70%;
+    border-radius: 4px;
+    font-size: 10px;
+  }
+  .opacityDiv {
+    height: 150px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .opacityDiv_Text p {
+    line-height: 20px;
+  }
+  .h5StyleAddSteps {
+    font-size: 10px;
+  }
+  .Footer .textBlock .list * {
+    font-size: 10px;
+  }
+  .Footer .block {
+    padding: 25px 0;
+  }
+  .logoFooter {
+    width: 120px;
+  }
+  .LogoWithOpacity {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 35px;
+  }
+  .opacityDiv_Text {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .desktopSteps {
+    display: none;
+  }
+  .mobileSteps {
+    display: inherit !important;
+  }
+  .Steps_Line {
+    width: 165px;
+    top: 25px;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 35px;
+  }
+  .StepByStep_AddText .textBlock {
+    margin-top: 15px;
+  }
+  .opacityDiv_Text p {
+    margin-top: 8px;
+  }
+  .StepByStep_GenerateDesign .textBlock {
+    margin-top: 14px;
+  }
+  .StepByStep_AddLogo .textBlock {
+    margin-top: 20px;
+  }
+  .opacityDiv {
+    height: 120px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .opacityDiv_Text p {
+    line-height: 14px;
+  }
+  .Benefits_Section1 .imgBlock * {
+    top: 0;
+  }
+  .Benefits_Section2 {
+    margin-top: -160px;
+  }
+  .Benefits_Section1 .imgBlock,
+  .Benefits_Section2 .imgBlock,
+  .Benefits_Section3 .imgBlock,
+  .Benefits_Section5 .imgBlock {
+    width: 220px;
+  }
+  .Benefits_Section4 .imgBlock {
+    width: 190px;
+  }
+  .Benefits_Section3 .imgBlock {
+    width: 150px;
+  }
+  .Benefits_Section1 {
+    height: 640px;
+  }
+  .Benefits_Section3 {
+    margin-top: 50px;
+  }
+  .Benefits_Section4 {
+    margin-top: 10px;
+  }
+  .Benefits_Section5 {
+    margin-top: 40px;
+  }
+  .HowToUse_Section {
+    margin-top: 10px;
+  }
+  .tryNowButton {
+    width: 85%;
+    border-radius: 4px;
+    font-size: 10px;
+  }
+  .StepByStep_AddImage .textBlock,
+  .StepByStep_AddLogo .textBlock {
+    width: 220px;
+  }
+  .StepByStep_GenerateDesign {
+    margin-top: 50px;
+  }
+  .StepByStep_AddLogo {
+    margin-top: 12px;
+  }
+  .StepByStep_AddImage .img_AddImage {
+    width: 135px;
+  }
+  .StepByStep_AddText .img_AddImage,
+  .StepByStep_GenerateDesign .img_AddImage {
+    width: 60px;
+  }
+  .StepByStep_AddLogo .img_AddImage {
+    width: 80px;
+  }
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    align-items: flex-start;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 0;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    margin-right: 0;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 20px;
+  }
+  .LogoWithOpacity {
+    height: 250px;
+  }
+  .Benefits_Section1 .textBlock p,
+  .Benefits_Section2 .textBlock p,
+  .Benefits_Section3 .textBlock p,
+  .Benefits_Section4 .textBlock p,
+  .Benefits_Section5 .textBlock p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .StepByStep_AddImage,
+  .StepByStep_AddLogo,
+  .StepByStep_AddText,
+  .StepByStep_GenerateDesign {
+    margin-left: 30px;
+  }
+  .h5StyleAddSteps {
+    margin-top: 5px;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    padding-left: 40px;
+  }
+  .StepByStep_AddLogo .img_AddImage {
+    width: 66px;
+  }
+  .Footer .textBlock .list *:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .StepByStep_AddImage .textBlock,
+  .StepByStep_AddLogo .textBlock {
+    width: 160px;
+  }
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .StepByStep_AddText .textBlock,
+  .StepByStep_GenerateDesign .textBlock {
+    width: 165px;
+  }
+  .StepByStep_AddText .textBlock {
+    margin-top: 25px;
+  }
+  .StepByStep_AddLogo {
+    margin-top: 5px;
+  }
+  .StepByStep_AddLogo .textBlock {
+    margin-top: 0px;
+  }
+}
