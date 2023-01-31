@@ -112,7 +112,7 @@ li {
   font-size: 24px;
   line-height: 24px;
 }
-.hideButton2 {
+.btnLeft {
   display: none !important;
 }
 .mobileSteps {
@@ -171,7 +171,7 @@ li {
 .Benefits_Section5 h5 {
   color: #eb4a3f;
 }
-.textBlock_vernagir h3 {
+.headline h3 {
   margin-left: 50px;
   margin-bottom: 54px;
 }
@@ -378,22 +378,24 @@ li {
 .StepByStep_GenerateDesign {
   margin-top: 110px;
 }
-.StepByStep_AddImage .img_AddImage,
-.StepByStep_AddLogo .img_AddImage {
+.StepByStep_AddImage .imgBlock,
+.StepByStep_AddLogo .imgBlock {
   margin: 0 auto;
 }
-.StepByStep_AddImage .img_AddImage {
+.StepByStep_AddImage .imgBlock {
   width: 360px;
 }
-.StepByStep_AddText .img_AddImage,
-.StepByStep_GenerateDesign .img_AddImage,
-.StepByStep_AddLogo .img_AddImage {
+.StepByStep_AddText .imgBlock,
+.StepByStep_AddLogo .imgBlock {
   width: 220px;
 }
-.StepByStep_AddImage .img_AddImage *,
-.StepByStep_AddLogo .img_AddImage *,
-.StepByStep_AddText .img_AddImage *,
-.StepByStep_GenerateDesign .img_AddImage * {
+.StepByStep_GenerateDesign .imgBlock {
+  width: 300px;
+}
+.StepByStep_AddImage .imgBlock *,
+.StepByStep_AddLogo .imgBlock *,
+.StepByStep_AddText .imgBlock *,
+.StepByStep_GenerateDesign .imgBlock * {
   width: 100%;
 }
 
@@ -503,12 +505,14 @@ li {
   .StepByStep_AddLogo {
     margin-top: 80px;
   }
-  .StepByStep_AddText .img_AddImage,
-  .StepByStep_GenerateDesign .img_AddImage,
-  .StepByStep_AddLogo .img_AddImage {
+  .StepByStep_AddText .imgBlock,
+  .StepByStep_AddLogo .imgBlock {
     width: 160px;
   }
-  .StepByStep_AddImage .img_AddImage {
+  .StepByStep_GenerateDesign .imgBlock {
+    width: 200px;
+  }
+  .StepByStep_AddImage .imgBlock {
     width: 300px;
   }
   .StepByStep_Container {
@@ -638,7 +642,7 @@ li {
   .Benefits_Section5 .textBlock {
     margin-left: 0;
   }
-  .textBlock_vernagir h3 {
+  .headline h3 {
     margin-left: 0;
     margin-bottom: 30px;
   }
@@ -675,10 +679,10 @@ li {
   .Benefits_Section1 {
     height: 720px;
   }
-  .hideButton1 {
+  .btnCenter {
     display: none;
   }
-  .hideButton2 {
+  .btnLeft {
     display: inline-block !important;
     margin-top: 20px;
   }
@@ -724,10 +728,12 @@ li {
   .StepByStep_AddText .textBlock {
     height: auto;
   }
-  .StepByStep_AddText .img_AddImage,
-  .StepByStep_GenerateDesign .img_AddImage,
-  .StepByStep_AddLogo .img_AddImage {
+  .StepByStep_AddText .imgBlock,
+  .StepByStep_AddLogo .imgBlock {
     width: 120px;
+  }
+  .StepByStep_GenerateDesign .imgBlock {
+    width: 180px;
   }
   .StepByStep_AddText .textBlock,
   .StepByStep_GenerateDesign .textBlock {
@@ -835,10 +841,12 @@ li {
     width: 250px;
     top: 35px;
   }
-  .StepByStep_AddText .img_AddImage,
-  .StepByStep_GenerateDesign .img_AddImage,
-  .StepByStep_AddLogo .img_AddImage {
+  .StepByStep_AddText .imgBlock,
+  .StepByStep_AddLogo .imgBlock {
     width: 100px;
+  }
+  .StepByStep_GenerateDesign .imgBlock {
+    width: 150px;
   }
   .LogoWithOpacity {
     height: 350px;
@@ -882,10 +890,12 @@ li {
   .StepByStep_GenerateDesign {
     margin-top: 34px;
   }
-  .StepByStep_AddText .img_AddImage,
-  .StepByStep_GenerateDesign .img_AddImage,
-  .StepByStep_AddLogo .img_AddImage {
+  .StepByStep_AddText .imgBlock,
+  .StepByStep_AddLogo .imgBlock {
     width: 80px;
+  }
+  .StepByStep_GenerateDesign .imgBlock {
+    width: 100px;
   }
   .StepByStep_AddImage,
   .StepByStep_AddLogo,
@@ -893,7 +903,7 @@ li {
   .StepByStep_GenerateDesign {
     margin-left: 40px;
   }
-  .StepByStep_AddImage .img_AddImage {
+  .StepByStep_AddImage .imgBlock {
     width: 160px;
   }
   .StepByStep_AddText .textBlock,
@@ -1039,14 +1049,14 @@ li {
   .StepByStep_AddLogo {
     margin-top: 12px;
   }
-  .StepByStep_AddImage .img_AddImage {
+  .StepByStep_AddImage .imgBlock {
     width: 135px;
   }
-  .StepByStep_AddText .img_AddImage,
-  .StepByStep_GenerateDesign .img_AddImage {
+  .StepByStep_AddText .imgBlock {
     width: 60px;
   }
-  .StepByStep_AddLogo .img_AddImage {
+  .StepByStep_GenerateDesign .imgBlock,
+  .StepByStep_AddLogo .imgBlock {
     width: 80px;
   }
   .StepByStep_AddText,
@@ -1094,7 +1104,7 @@ li {
   .StepByStep_GenerateDesign .textBlock {
     padding-left: 40px;
   }
-  .StepByStep_AddLogo .img_AddImage {
+  .StepByStep_AddLogo .imgBlock {
     width: 66px;
   }
   .Footer .textBlock .list *:not(:last-child) {
@@ -1124,6 +1134,12 @@ li {
     margin-top: 5px;
   }
   .StepByStep_AddLogo .textBlock {
+    margin-top: 0px;
+  }
+  .headline h3 {
+    margin-bottom: 10px;
+  }
+  .StepByStep_GenerateDesign .textBlock {
     margin-top: 0px;
   }
 }
